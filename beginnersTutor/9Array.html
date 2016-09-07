@@ -1,0 +1,20 @@
+<html>
+
+<script>
+  var emptyArray = [];
+  var shoppingList = ['Milk', 'Sugar', 'TeaPowder'];
+  document.write(shoppingList[2] + '<br>');
+  shoppingList.push('Pushed Item');
+  document.write(shoppingList.pop() + '<br>');
+  document.write(shoppingList.length);
+
+  var people = ['Johns', 'Takashe', 'Google'];
+  var helloFrom = function(personName) {
+    return "Hello From " + personName;
+  }
+  for (var i=0; i < people.length; i++) {
+    var greeting = helloFrom(people[i]);
+    alert(greeting);
+  }
+</script>
+</html>
